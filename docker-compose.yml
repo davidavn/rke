@@ -1,0 +1,9 @@
+version: '3'
+services:
+  rancher:
+    image: rancher/rancher
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - 80:80
+      - 8443:443

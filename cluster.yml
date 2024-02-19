@@ -1,0 +1,19 @@
+nodes:
+    - address: 192.168.194.237
+      user: david
+      role:
+      - controlplane
+      - etcd
+      ssh_key_path: /Users/davnerson/.ssh/id_rke_lab
+
+    - address: 192.168.194.107
+      user: david
+      role:
+      - worker
+      ssh_key_path: /Users/davnerson/.ssh/id_rke_lab
+
+    - address: 192.168.194.41
+      user: david
+      role:
+      - worker
+      ssh_key_path: /Users/davnerson/.ssh/id_rke_lab
